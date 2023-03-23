@@ -1,5 +1,5 @@
-#FA20-BCS-020 ...ZARAR AIMAN
-#FA20-BCS-017 ...M WAHAJ KHALIL
+
+#WAHAJ KHALIL
 
 from tkinter import *
 
@@ -118,7 +118,7 @@ Label(window,text = "Player O",bg="Black",fg="Orange",width=15,height=2).grid(ro
 
 
 
-def Quit(event):     #for quiting whole game with escape key
+def Quit(event):    #for quiting whole game with escape key
     window.destroy()
 def Quit2():
     window.destroy()  #for quittong with exit button
