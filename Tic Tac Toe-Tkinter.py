@@ -82,7 +82,7 @@ def Rules():
 btn1= Button(info, text = "START GAME",command=Quit1,height = 4, width=15,bg="grey65",fg ="Black",font = ("Arial",10)).grid(row=1,column=0,padx=20,pady=10,sticky = NE)
 btn2 = Button(info,text="INSTRUCTIONS",bg="Grey80",fg="Black",command=Rules,height = 4 ,width = 15,font=("Arial",10)).grid(row =2,column=0,padx =20 ,pady= 10,sticky=NE)
 l1 =Label(info,text = "Welcome to Tic Tac Toe",font=("Times New Roman",15)).grid(row=0,padx = 10)
-l2 =Label(info,text= "Created by Wahaj and Aiman",font=('Calibiri',10)).grid(sticky=W)
+l2 =Label(info,text= "Created by Wahaj",font=('Calibiri',10)).grid(sticky=W)
 
 
 
